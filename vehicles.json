@@ -9,7 +9,7 @@
     "fuel": "Gasoline",
     "transmission": "Automatic",
     "description": "Luxury sedan with premium leather interior, advanced driver assistance, and state-of-the-art infotainment system.",
-    "image": "/images/campbell-3ZUsNJhi_Ik-unsplash.jpg",
+    "image": "./images/campbell-3ZUsNJhi_Ik-unsplash.jpg",
     "category": "new",
     "features": [
       "Premium Leather Interior",
@@ -30,7 +30,7 @@
     "fuel": "Hybrid",
     "transmission": "Automatic",
     "description": "Spacious SUV with third-row seating, panoramic sunroof, and advanced safety features for the whole family.",
-    "image": "/images/joshua-koblin-eqW1MPinEV4-unsplash.jpg",
+    "image": "./images/joshua-koblin-eqW1MPinEV4-unsplash.jpg",
     "category": "",
     "features": [
       "Third-row Seating",
@@ -51,7 +51,7 @@
     "fuel": "Gasoline",
     "transmission": "Automatic",
     "description": "High-performance sports car with V10 engine, carbon fiber accents, and race-inspired cockpit design.",
-    "image": "/images/marek-pospisil-oUBjd22gF6w-unsplash.jpg",
+    "image": "./images/marek-pospisil-oUBjd22gF6w-unsplash.jpg",
     "category": "sale",
     "features": [
       "V10 Engine",
