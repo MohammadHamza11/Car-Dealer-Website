@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Maintenance & Repairs",
+    "description": "Factory-trained technicians using genuine parts to keep your vehicle in perfect condition.",
+    "icon": "bi-wrench-adjustable-circle"
+  },
+  {
+    "title": "Financing Options",
+    "description": "Competitive rates and flexible terms to help you drive home in your dream car today.",
+    "icon": "bi-cash-coin"
+  },
+  {
+    "title": "Extended Warranty",
+    "description": "Protect your investment with our comprehensive warranty packages for peace of mind.",
+    "icon": "bi-shield-check"
+  }
+]

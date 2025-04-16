@@ -1,0 +1,335 @@
+:root {
+  --primary-color: #0a0a0a;
+  --primary-dark: #0d1a2f;
+  --primary-light: #2a4d7c;
+  --secondary-color: #d95d39;
+  --secondary-dark: #a8462b;
+  --secondary-light: #e89f7e;
+  --light-color: #e8e9ea;
+  --dark-color: #1a1a1a;
+  --gray-color: #5a6268;
+  --gray-light: #343a40;
+  --success-color: #218838;
+  --info-color: #138496;
+  --warning-color: #e0a800;
+  --danger-color: #bb2d3b;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--dark-color);
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.login-btn {
+  border-radius: 20px;
+  padding: 0.375rem 1.25rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(26, 58, 143, 0.8), rgba(26, 58, 143, 0.9)),
+    url("/placeholder.svg?height=800&width=1200");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0 100px;
+  margin-top: 76px;
+}
+
+/* Search Section */
+.search-section {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Section Titles */
+.section-title {
+  position: relative;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--secondary-color);
+  margin: 15px auto 0;
+}
+
+/* Vehicle Cards */
+.vehicle-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.vehicle-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.vehicle-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.vehicle-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.vehicle-card .price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.specs .badge {
+  padding: 0.5rem 0.75rem;
+  font-weight: 500;
+}
+
+/* Service Cards */
+.service-card {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+  border-radius: 10px;
+}
+
+.testimonial-card .card-text {
+  font-style: italic;
+}
+
+/* Add this CSS rule to the style.css file to control the size of testimonial images */
+.testimonial-card .rounded-circle {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* Contact Form */
+.form-floating > label {
+  padding-left: 2.5rem;
+}
+
+.form-floating > .form-control {
+  height: calc(3.5rem + 2px);
+  line-height: 1.25;
+}
+
+.form-floating > textarea.form-control {
+  height: 120px;
+}
+
+/* Social Icons */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--gray-light);
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Footer */
+.footer-link {
+  color: var(--gray-color);
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link:hover {
+  color: white;
+  transform: translateX(5px);
+}
+
+/* Chat Box */
+.chat-box {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1055;
+  display: none; /* Hide chat button by default */
+}
+
+.chat-box.visible {
+  display: block; /* Show chat button when this class is added */
+}
+
+.chat-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(26, 58, 143, 0.3);
+  transition: all 0.3s ease;
+}
+
+.chat-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 30px rgba(26, 58, 143, 0.4);
+}
+
+/* Chat Messages */
+.chat-messages {
+  height: 300px;
+  overflow-y: auto;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.message {
+  margin-bottom: 15px;
+  max-width: 80%;
+  clear: both;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message-content {
+  padding: 12px 15px;
+  border-radius: 18px;
+  word-wrap: break-word;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.message-time {
+  font-size: 0.75rem;
+  color: var(--gray-color);
+  margin-top: 5px;
+  text-align: right;
+}
+
+.sent {
+  float: right;
+}
+
+.sent .message-content {
+  background-color: var(--primary-color);
+  color: white;
+  border-bottom-right-radius: 5px;
+}
+
+.received {
+  float: left;
+}
+
+.received .message-content {
+  background-color: #e9ecef;
+  color: var(--dark-color);
+  border-bottom-left-radius: 5px;
+}
+
+/* jQuery UI Customizations */
+.ui-slider {
+  height: 8px;
+  background: #e9ecef;
+  border: none;
+  border-radius: 4px;
+}
+
+.ui-slider .ui-slider-range {
+  background: var(--primary-color);
+}
+
+.ui-slider .ui-slider-handle {
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  cursor: pointer;
+  top: -5px;
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 100px 0 60px;
+  }
+
+  .vehicle-card .card-img-top {
+    height: 180px;
+  }
+
+  .chat-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+}

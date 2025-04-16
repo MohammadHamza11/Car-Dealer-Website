@@ -1,0 +1,65 @@
+[
+  {
+    "name": "2022 Porsche Panamera",
+    "make": "Porsche",
+    "type": "Sedan",
+    "year": "2022",
+    "price": "$58,900",
+    "mileage": "12,500 mi",
+    "fuel": "Gasoline",
+    "transmission": "Automatic",
+    "description": "Luxury sedan with premium leather interior, advanced driver assistance, and state-of-the-art infotainment system.",
+    "image": "/images/campbell-3ZUsNJhi_Ik-unsplash.jpg",
+    "category": "new",
+    "features": [
+      "Premium Leather Interior",
+      "Advanced Driver Assistance",
+      "State-of-the-art Infotainment",
+      "Panoramic Sunroof",
+      "Heated and Ventilated Seats",
+      "Adaptive Cruise Control"
+    ]
+  },
+  {
+    "name": "Ferrari La Ferrari",
+    "make": "Ferrari",
+    "type": "Sports",
+    "year": "2021",
+    "price": "$67,500",
+    "mileage": "8,200 mi",
+    "fuel": "Hybrid",
+    "transmission": "Automatic",
+    "description": "Spacious SUV with third-row seating, panoramic sunroof, and advanced safety features for the whole family.",
+    "image": "/images/joshua-koblin-eqW1MPinEV4-unsplash.jpg",
+    "category": "",
+    "features": [
+      "Third-row Seating",
+      "Panoramic Sunroof",
+      "Advanced Safety Features",
+      "Wireless Charging",
+      "Premium Sound System",
+      "Hands-free Liftgate"
+    ]
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "make": "Lamborghini",
+    "type": "Sports",
+    "year": "2023",
+    "price": "$142,700",
+    "mileage": "3,100 mi",
+    "fuel": "Gasoline",
+    "transmission": "Automatic",
+    "description": "High-performance sports car with V10 engine, carbon fiber accents, and race-inspired cockpit design.",
+    "image": "/images/marek-pospisil-oUBjd22gF6w-unsplash.jpg",
+    "category": "sale",
+    "features": [
+      "V10 Engine",
+      "Carbon Fiber Accents",
+      "Race-inspired Cockpit",
+      "Launch Control",
+      "Adaptive Suspension",
+      "Carbon Ceramic Brakes"
+    ]
+  }
+]

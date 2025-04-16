@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Michael Johnson",
+    "car": "BMW 5 Series",
+    "comment": "The buying experience at Premium Auto was exceptional. No pressure, just helpful information and a smooth process from start to finish.",
+    "rating": 5,
+    "image": "/images/aiony-haust-3TLl_97HNJo-unsplash.jpg"
+  },
+  {
+    "name": "Sarah Williams",
+    "car": "Mercedes GLE",
+    "comment": "Their service department is top-notch. My car is always ready when promised, and they take the time to explain everything they've done.",
+    "rating": 5,
+    "image": "/images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg"
+  },
+  {
+    "name": "David Chen",
+    "car": "Audi R8",
+    "comment": "I've purchased three vehicles from Premium Auto over the years. Their selection is unmatched and the staff treats you like family.",
+    "rating": 4,
+    "image": "/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg"
+  }
+]
